@@ -37,7 +37,7 @@ object id09ci05teamcity : BuildType({
     name = "09-ci-05-teamcity"
     description = "09-ci-05-teamcity"
 
-    artifactRules = "target/*jar"
+    artifactRules = "target/*.jar"
     publishArtifacts = PublishMode.SUCCESSFUL
 
     vcs {
